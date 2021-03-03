@@ -1,0 +1,90 @@
+@font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydian.ttf');  font-style: normal;  font-weight: normal;}
+@font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydianItalic.ttf');  font-style: italic;  font-weight: normal;}
+@font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydianBold.ttf');  font-style: normal;  font-weight: bold;}
+@font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydianbi.ttf');  font-style: italic;  font-weight: bold;}
+
+
+body{
+  background-image: url('assets/images/bg.jpeg');
+  background-size: 100% 100%;
+  font-family: 'Lydian';
+  background-size:cover;
+  }
+
+h1{
+  font-size:65px;
+}
+
+.icon{
+width:0.7em;
+}
+#indexTitle{
+padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex; justify-content: space-between;
+  width: 90%;
+  /* border-style: inset; */
+}
+
+#navDiv{
+  /* border-style: inset; */
+   margin-left: 5%; width: 10%; width: 10%; height:200px;
+}
+.navItem{
+  display: block;  text-decoration: none;  color: black;  font-size: 30px;  margin-bottom: 5px;
+  /* margin-left: -5%; */
+}
+
+.navItem:hover{
+  font-size:40px;
+}
+
+#socialDiv{
+  /* position: absolute;  */
+  margin-top: 3%;
+   display: flex;
+   justify-content: space-around;
+   width: 10%;
+   /* border-style: inset; */
+}
+
+#creditDiv{
+   position: fixed; border-style: none;  margin-left: 42%;  margin-top: 23%;  height: 50px;  width:20%;
+}
+#imageCredit{
+  font-size: 14px;
+}
+#creditLink{
+  text-decoration: none;  color: rgba(0,0,0,0.5);
+}
+
+#bioDiv{
+  position: absolute;
+  z-index:3;
+  width: 30%;
+  margin-top: -10%;
+  margin-left:15%;
+  padding:10px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius:20px;
+}
+
+#bioPic1{
+  position:absolute;
+  z-index:1;
+  width: 25%;
+  margin-left: 60%;
+  opacity:80%;
+  margin-top:-10%;
+  margin-bottom: 10px;
+  border-radius:20px;
+}
+
+#bioPic2{
+  position:absolute;
+  z-index:2;
+  width: 25%;
+  margin-left: 40%;
+  margin-top: -5%;
+  opacity:70%;
+  margin-bottom: 10px;
+}
+/* #creditLink:hover{  font-size: 25px;} */
