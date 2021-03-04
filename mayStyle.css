@@ -47,7 +47,15 @@ padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex;
 }
 
 #creditDiv{
-   position: fixed; border-style: none;  margin-left: 42%;  margin-top: 23%;  height: 50px;  width:20%;
+   /* position: fixed; border-style: none;  margin-left: 42%;  margin-top: 23%;  height: 50px;  width:20%; */
+
+   position: fixed;
+              padding: 10px 10px 0px 10px;
+              left: 40%;
+              bottom: 0;
+              width: 100%;
+              /* Height of the footer*/
+              height: 40px;
 }
 #imageCredit{
   font-size: 14px;
