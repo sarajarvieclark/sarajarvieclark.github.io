@@ -102,3 +102,14 @@ padding: none; margin-top:3%; font-size: 40px;   margin-left: 5%; display: flex;
 
 }
 /* #creditLink:hover{  font-size: 25px;} */
+#connectDiv{
+  position: absolute;
+  z-index:3;
+  width: 30%;
+  font-size: 18px;
+  margin-top: -8%;
+  margin-left:35%;
+  padding:20px;
+  background-color: rgba(248,222,126,0.85);
+  border-radius:20px;
+}
