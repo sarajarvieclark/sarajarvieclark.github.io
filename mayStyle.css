@@ -12,15 +12,15 @@ body{
   }
 
 h1{
-  font-size:65px;
+  font-size:50px;
   color: #4f89b8;
 }
 
 .icon{
-width:0.7em;
+width:1em;
 }
 #indexTitle{
-padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex; justify-content: space-between;
+padding: none; margin-top:3%; font-size: 40px;   margin-left: 5%; display: flex; justify-content: space-between;
   width: 90%;
   color:#4f89b8;
   /* border-style: inset; */
@@ -31,13 +31,13 @@ padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex;
    margin-left: 5%; width: 10%; width: 10%; height:200px;
 }
 .navItem{
-  display: block;  text-decoration: none;  color: black;  font-size: 30px;  margin-bottom: 5px;
+  display: block;  text-decoration: none;  color: black;  font-size: 25px;  margin-bottom: 5px;
   color:#4f89b8;
   /* margin-left: -5%; */
 }
 
 .navItem:hover{
-  font-size:40px;
+  font-size:30px;
 }
 
 #socialDiv{
@@ -71,21 +71,21 @@ padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex;
 #bioDiv{
   position: absolute;
   z-index:3;
-  width: 30%;
+  width: 25%;
   margin-top: -11%;
-  margin-left:15%;
-  padding:10px;
-  background-color: rgba(255,255,255,0.2);
+  margin-left:20%;
+  padding:20px;
+  background-color: rgba(248,222,126,0.85);
   border-radius:20px;
 }
 
 #bioPic1{
   position:absolute;
   z-index:1;
-  width: 25%;
-  margin-left: 58%;
-  opacity:70%;
-  margin-top:-15%;
+  width: 15%;
+  margin-left: 65%;
+  opacity:85%;
+  margin-top:-11%;
   margin-bottom: 10px;
   border-radius:20px;
 }
@@ -93,10 +93,10 @@ padding: none; margin-top:3%; font-size: 60px;   margin-left: 5%; display: flex;
 #bioPic2{
   position:absolute;
   z-index:2;
-  width: 430px;
-  margin-left: 40%;
+  width: 20%;
+  margin-left: 46%;
   margin-top: -8%;
-  opacity:80%;
+  opacity:90%;
   margin-bottom: 10px;
   border-radius:20px;
 
