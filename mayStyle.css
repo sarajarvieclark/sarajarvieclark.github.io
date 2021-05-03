@@ -29,6 +29,9 @@ padding: none; margin-top:3%; margin-left:5%; display: flex; align-items: baseli
 }
 
 @media screen and (max-width:800px) {
+  h1{
+    font-size:40px;
+  }
   #indexTitle{
     flex-direction: column;
     margin-bottom: 3%;
@@ -121,13 +124,13 @@ cursor: alias;
   }
 
   #bioPic1{
-    width:40%;
-    margin-left:55%;
-    margin-top: -25%;
+    width:55%;
+    margin-left:40%;
+    margin-top: -40%;
   }
   #bioPic2{
     width:55%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top:-15%;
   }
 }
