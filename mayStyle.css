@@ -141,11 +141,22 @@ cursor: alias;
 #connectDiv{
   position: absolute;
   z-index:3;
-  width: 30%;
+  width: 25%;
   font-size: 18px;
   margin-top: -8%;
   margin-left:35%;
-  padding:20px;
-  background-color: rgba(248,222,126,0.85);
+  padding-top:3px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: rgba(248,222,126,0.7);
   border-radius:20px;
+  overflow-wrap:break-word;
+}
+
+@media screen and (max-width:800px) {
+#connectDiv{
+  width: 70%;
+  margin-left:5%;
+}
+
 }
