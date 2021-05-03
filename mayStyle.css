@@ -88,7 +88,10 @@ cursor: alias;
   width: 30%;
   margin-top: -7%;
   margin-left:15%;
-  padding:20px;
+  padding-top:5px;
+  padding-left:20px;
+  padding-right:20px;
+
   background-color: rgba(248,222,126,0.85);
   border-radius:20px;
 }
