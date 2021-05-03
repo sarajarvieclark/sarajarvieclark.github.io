@@ -33,6 +33,9 @@ padding: none; margin-top:3%; margin-left:5%; display: flex; align-items: baseli
     flex-direction: column;
     margin-bottom: 3%;
   }
+  .navItem{
+    margin-bottom:
+  }
 }
 
 #socialDiv{
@@ -46,7 +49,8 @@ padding: none; margin-top:3%; margin-left:5%; display: flex; align-items: baseli
    margin-left: 5%; width: 10%; width: 10%; height:200px;
 }
 .navItem{
-  display: block;  text-decoration: none;  color: black;  font-size: 30px;  margin-bottom: 5px;
+  display: block;  text-decoration: none;  color: black;  font-size: 30px;
+  margin-bottom: 2%;
   color:#4f89b8;
   /* margin-left: -5%; */
 }
@@ -111,9 +115,10 @@ cursor: alias;
 
 @media screen and (max-width:800px) {
   #bioDiv{
-    margin-left: 5%;
-    width: 80%;
+    margin-left: 3%;
+    width: 85%;
     margin-top:50%;
+    line-height: 1.5;
   }
 
   #bioPic1{
