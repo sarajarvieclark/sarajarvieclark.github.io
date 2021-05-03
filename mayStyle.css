@@ -22,7 +22,7 @@ width:50px;
 margin-right: 10px;
 }
 #indexTitle{
-padding: none; margin-top:3%; margin-left:5%; display: flex; align-items: baseline; flex-wrap:wrap;justify-content: space-between;
+padding: none; margin-top:3%; margin-left:5%; display: flex; align-items: baseline; flex-wrap:wrap;justify-content: space-between; margin-right: 5%;
   /* width: 90%; */
   color:#4f89b8;
   /* border-style: inset; */
