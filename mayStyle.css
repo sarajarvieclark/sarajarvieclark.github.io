@@ -3,6 +3,11 @@
 @font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydianBold.ttf');  font-style: normal;  font-weight: bold;}
 @font-face{  font-family: 'Lydian';  src: url('assets/fonts/lydianbi.ttf');  font-style: italic;  font-weight: bold;}
 
+@font-face{  font-family: 'Roboto';  src: url('assets/fonts/Roboto-Medium.ttf');  font-style: normal;  font-weight: normal;}
+@font-face{  font-family: 'Roboto';  src: url('assets/fonts/Roboto-MediumItalic.ttf');  font-style: italic;  font-weight: normal;}
+@font-face{  font-family: 'Roboto';  src: url('assets/fonts/Roboto-Bold.ttf');  font-style: normal;  font-weight: bold;}
+@font-face{  font-family: 'Roboto';  src: url('assets/fonts/Roboto-BoldItalic.ttf');  font-style: italic;  font-weight: bold;}
+
 
 body{
   background-image: url('assets/images/bg.jpeg');
@@ -16,6 +21,12 @@ h1{
   color: #4f89b8;
   margin-bottom: 2%;
 }
+
+#homeLink{
+  text-decoration: none;
+}
+p{
+font-family: 'Roboto', sans-serif;}
 
 .icon{
 width:50px;
@@ -78,45 +89,46 @@ cursor: alias;
 }
 #creditLink{
   text-decoration: none;  color: rgba(0,0,0,0.5);
+  font-family:'Lydian';
 }
 
 /* -----------ABOUT PAGE------------------------- */
 #bioDiv{
   position: absolute;
-  font-size: 18px;
+  font-size: 12px;
   z-index:3;
-  width: 30%;
+  width: 20%;
   margin-top: -7%;
-  margin-left:15%;
+  margin-left:20%;
   padding-top:5px;
   padding-left:20px;
   padding-right:20px;
-
-  background-color: rgba(248,222,126,0.85);
+  text-align: left;
+  /* background-color: rgba(248,222,126,0.5); */
   border-radius:20px;
 }
 
 #bioPic1{
   position:absolute;
   z-index:1;
-  width: 22%;
-  margin-left: 60%;
+  width: 25%;
+  margin-left: 50%;
   opacity:85%;
-  margin-top:-8%;
+  margin-top:-20%;
   margin-bottom: 10px;
-  border-radius:20px;
+  /* border-radius:20px; */
 }
 
-#bioPic2{
+/* #bioPic2{
   position:absolute;
   z-index:2;
   width: 20%;
-  margin-top: -4%;
-  margin-left: 46%;
+  margin-top: -14%;
+  margin-left: 40%;
   opacity:90%;
   border-radius:20px;
 
-}
+} */
 
 @media screen and (max-width:800px) {
   #bioDiv{
@@ -142,13 +154,13 @@ cursor: alias;
   position: absolute;
   z-index:3;
   width: 25%;
-  font-size: 18px;
+  font-size: 12px;
   margin-top: -8%;
   margin-left:35%;
   padding-top:3px;
   padding-left:20px;
   padding-right:20px;
-  background-color: rgba(248,222,126,0.7);
+  /* background-color: rgba(248,222,126,0.5); */
   border-radius:20px;
   overflow-wrap:break-word;
 }
