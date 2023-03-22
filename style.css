@@ -1,0 +1,128 @@
+ @font-face {
+        font-family: 'Augusta';
+        src: url(fonts/Augusta.ttf);
+      }
+    * {
+        margin: 0;
+        padding: 0;
+    }    
+    
+    
+#navDiv{
+  /* border-style inset; */
+   margin-left: 5%; width: 10%; width: 10%; height:200px;
+   display: inline-block;
+}
+.navItem{
+  display: inline-block;  
+  text-decoration: none; 
+  color: black;  
+  font-size: 60px;
+  font-weight: 100px;
+  font-family: 'Augusta';
+  margin-bottom: 4%;
+  color: #fbe8c5e8;
+  cursor: url('cursorsword.png'), auto;
+  /* margin-left: -5%; */
+}
+.bottom-nav {
+
+  position: fixed;
+  top: 550px;
+  left: 20px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+cursor: url('cursorsword.png'), auto;
+  
+  
+}
+.navItem:hover{
+  font-size:55px;
+  color: rgb(255, 248, 215);
+  cursor: url('cursorsword.png'), auto;
+
+  
+}
+
+    body{
+  background-image: url("garden.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Augusta';
+  background-size:cover;
+  height: 100vh;
+  cursor: url('cursorsword.png'), auto; 
+  
+    }
+  
+    h1{
+  font-size:80px;
+  text-align: center;
+  font-weight: 350;
+  font-style: italic;
+  color: #fbe8c5f1;
+  margin-bottom: 2%;
+  cursor: url('cursorsword.png'), auto;
+}
+.email-button {
+  font-size: 11px;
+  font-family: 'Geneva', Times, serif;
+  background-color: rgba(25, 101, 53, 0.844);
+  color: #c77da5;
+  position: absolute;
+			top: 0;
+			right: 0;
+			padding: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+cursor: url('cursorsword.png'), auto;
+}
+
+.description-button {
+  font-size: 11px;
+  font-family: 'Geneva', Times, serif;
+  background-color: rgba(25, 101, 53, 0.844);
+  color: #c77da5;
+  padding-left: 0.5%;
+padding-right: 0.5%;
+padding-bottom: 0.5%;
+padding-top: 0.5%;
+cursor: url('cursorsword.png'), auto;
+text-align: center;
+margin-left: 411px;
+position: relative;
+bottom: 28px;
+left: 35px;
+font-style: italic;
+
+}
+
+.harbour-video {
+  position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+      display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+
+}
+.insta-button {
+position: absolute;
+bottom: 0;
+left: 0;
+padding: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+font-size: 11px;
+font-family: 'Geneva', Times, serif;
+background-color: rgba(25, 101, 53, 0.844);
+color: #c77da5;
+cursor: url('cursorsword.png'), auto;
+
+}
+
+
