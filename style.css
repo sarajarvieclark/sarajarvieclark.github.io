@@ -122,7 +122,7 @@
  }
 
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 850px) {
     
 h1{
     font-size: 3.7em;
@@ -130,7 +130,7 @@ h1{
 }
 
 body{
-    height: 140vh;
+    height: 150vh;
 }
 
 .description-button{
@@ -150,11 +150,14 @@ body{
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5%;
+    font-size: 20px;
+    word-wrap: break-word;
 }
 
 .insta-button{
     position: static;
-    width: 30%;
-    margin-left: 35%;
+    font-size: 18px;
+    width: 40%;
+    margin-left: 30%;
 }
   }
