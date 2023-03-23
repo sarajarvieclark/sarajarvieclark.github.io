@@ -7,14 +7,13 @@
         padding: 0;
     }    
     
-    
-#navDiv{
-  /* border-style inset; */
-   margin-left: 5%; width: 10%; width: 10%; height:200px;
-   display: inline-block;
+
+li {
+    display: inline;
 }
 .navItem{
-  display: inline-block;  
+  /* display: inline-block;   */
+  padding: 15px;
   text-decoration: none; 
   color: black;  
   font-size: 60px;
@@ -26,26 +25,18 @@
   /* margin-left: -5%; */
 }
 .bottom-nav {
-
-  position: fixed;
-  top: 550px;
-  left: 20px;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
+justify-content: center;  
+  display: flex;
 cursor: url('cursorsword.png'), auto;
-  
-  
 }
+
 .navItem:hover{
   font-size:55px;
   color: rgb(255, 248, 215);
   cursor: url('cursorsword.png'), auto;
-
-  
 }
 
-    body{
+body{
   background-image: url("garden.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -53,10 +44,9 @@ cursor: url('cursorsword.png'), auto;
   background-size:cover;
   height: 100vh;
   cursor: url('cursorsword.png'), auto; 
-  
     }
   
-    h1{
+h1{
   font-size:80px;
   text-align: center;
   font-weight: 350;
@@ -68,7 +58,7 @@ cursor: url('cursorsword.png'), auto;
 .email-button {
   font-size: 11px;
   font-family: 'Geneva', Times, serif;
-  background-color: rgba(25, 101, 53, 0.844);
+  background-color: #196535d7;
   color: #c77da5;
   position: absolute;
 			top: 0;
@@ -90,7 +80,7 @@ padding-bottom: 0.5%;
 padding-top: 0.5%;
 cursor: url('cursorsword.png'), auto;
 text-align: center;
-margin-left: 411px;
+margin-left: 26%;
 position: relative;
 bottom: 28px;
 left: 35px;
@@ -99,15 +89,9 @@ font-style: italic;
 }
 
 .harbour-video {
-  position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-      display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-
+ width: 40%;
+ margin-left: 30%;
+ display: inline-block;
 
 }
 .insta-button {
