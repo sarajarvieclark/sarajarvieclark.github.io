@@ -1,113 +1,160 @@
  @font-face {
-        font-family: 'Augusta';
-        src: url(fonts/Augusta.ttf);
-      }
-    * {
-        margin: 0;
-        padding: 0;
-    }    
+     font-family: 'Augusta';
+     src: url(fonts/Augusta.ttf);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+ li {
+     display: inline;
+ }
+
+ .navItem {
+     /* display: inline-block;   */
+     padding: 15px;
+     text-decoration: none;
+     /* color: black; */
+     font-size: 60px;
+     font-weight: 100px;
+     font-family: 'Augusta';
+     margin-bottom: 4%;
+     color: #fbe8c5e8;
+     cursor: url('cursorsword.png'), auto;
+     /* margin-left: -5%; */
+ }
+
+ #nav3{
+    padding-left: 5px;
+    :
+ }
+ .bottom-nav {
+     /* justify-content: center;   */
+     text-align: center;
+     /* display: flex; */
+     cursor: url('cursorsword.png'), auto;
+ }
+
+ .navItem:hover {
+     font-size: 55px;
+     color: rgb(255, 248, 215);
+     cursor: url('cursorsword.png'), auto;
+ }
+
+ body {
+     background-image: url("garden.jpg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     font-family: 'Augusta';
+     background-size: cover;
+     height: 100vh;
+     cursor: url('cursorsword.png'), auto;
+ }
+
+ h1 {
+     font-size: 80px;
+     text-align: center;
+     font-weight: 350;
+     font-style: italic;
+     color: #fbe8c5f1;
+     /* margin-bottom: 2%; */
+     cursor: url('cursorsword.png'), auto;
+ }
+
+ .email-button {
+     font-size: 14px;
+     font-family: 'Geneva', Times, serif;
+     background-color: #196535d7;
+     color: #f2b1d3;
+     position: absolute;
+     top: 0;
+     right: 0;
+     padding: 10px;
+     margin-top: 20px;
+     margin-right: 10px;
+     cursor: url('cursorsword.png'), auto;
+ }
+
+ .description-button {
+     font-size: 18px;
+     font-family: 'Geneva', Times, serif;
+     background-color: rgba(25, 101, 53, 0.844);
+     color: #f2b1d3;
+     padding-left: 0.5%;
+     padding-right: 0.5%;
+     padding-bottom: 0.5%;
+     padding-top: 0.5%;
+     cursor: url('cursorsword.png'), auto;
+     text-align: center;
+     margin-left: 26%;
+     /* margin-top:1%; */
+     margin-bottom:3%;
+     /* position: relative;
+     bottom: 28px;
+     left: 35px; */
+     font-style: italic;
+
+ }
+
+ .harbour-video {
+     width: 40%;
+     margin-left: 30%;
+     display: inline-block;
+
+ }
+
+ .insta-button {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     padding: 10px;
+     margin-bottom: 15px;
+     margin-left: 10px;
+     font-size: 15px;
+     font-family: 'Geneva', Times, serif;
+     background-color: rgba(25, 101, 53, 0.844);
+     color: #f2b1d3;
+     cursor: url('cursorsword.png'), auto;
+
+ }
+
+
+ @media only screen and (max-width: 768px) {
     
-
-li {
-    display: inline;
-}
-.navItem{
-  /* display: inline-block;   */
-  padding: 15px;
-  text-decoration: none; 
-  color: black;  
-  font-size: 60px;
-  font-weight: 100px;
-  font-family: 'Augusta';
-  margin-bottom: 4%;
-  color: #fbe8c5e8;
-  cursor: url('cursorsword.png'), auto;
-  /* margin-left: -5%; */
-}
-.bottom-nav {
-/* justify-content: center;   */
-text-align: center;
-  /* display: flex; */
-cursor: url('cursorsword.png'), auto;
-}
-
-.navItem:hover{
-  font-size:55px;
-  color: rgb(255, 248, 215);
-  cursor: url('cursorsword.png'), auto;
+h1{
+    font-size: 3.7em;
+    margin-top: 5%;
 }
 
 body{
-  background-image: url("garden.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  font-family: 'Augusta';
-  background-size:cover;
-  height: 100vh;
-  cursor: url('cursorsword.png'), auto; 
-    }
-  
-h1{
-  font-size:80px;
-  text-align: center;
-  font-weight: 350;
-  font-style: italic;
-  color: #fbe8c5f1;
-  margin-bottom: 2%;
-  cursor: url('cursorsword.png'), auto;
-}
-.email-button {
-  font-size: 11px;
-  font-family: 'Geneva', Times, serif;
-  background-color: #196535d7;
-  color: #c77da5;
-  position: absolute;
-			top: 0;
-			right: 0;
-			padding: 10px;
-      margin-top: 10px;
-      margin-right: 10px;
-cursor: url('cursorsword.png'), auto;
+    height: 140vh;
 }
 
-.description-button {
-  font-size: 11px;
-  font-family: 'Geneva', Times, serif;
-  background-color: rgba(25, 101, 53, 0.844);
-  color: #c77da5;
-  padding-left: 0.5%;
-padding-right: 0.5%;
-padding-bottom: 0.5%;
-padding-top: 0.5%;
-cursor: url('cursorsword.png'), auto;
-text-align: center;
-margin-left: 26%;
-position: relative;
-bottom: 28px;
-left: 35px;
-font-style: italic;
-
+.description-button{
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top:4%; margin-bottom: 6%;
+    font-size: 18px;
 }
 
-.harbour-video {
- width: 40%;
- margin-left: 30%;
- display: inline-block;
-
-}
-.insta-button {
-position: absolute;
-bottom: 0;
-left: 0;
-padding: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-font-size: 11px;
-font-family: 'Geneva', Times, serif;
-background-color: rgba(25, 101, 53, 0.844);
-color: #c77da5;
-cursor: url('cursorsword.png'), auto;
-
+.harbour-video{
+    width: 90%;
+    margin-left: 5%;
 }
 
+.email-button{
+    position:static;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
 
+.insta-button{
+    position: static;
+    width: 30%;
+    margin-left: 35%;
+}
+  }
