@@ -55,7 +55,7 @@
  }
 
  h1 {
-     font-size: 80px;
+     font-size: 100px;
      text-align: center;
      font-weight: 350;
      font-style: italic;
@@ -65,7 +65,7 @@
  }
 
  .email-button {
-     font-size: 14px;
+     font-size: 20px;
      font-family: 'Geneva', Times, serif;
      background-color: #196535d7;
      color: #f2b1d3;
@@ -110,7 +110,7 @@ margin: auto;
      padding: 10px;
      margin-bottom: 15px;
      margin-left: 10px;
-     font-size: 15px;
+     font-size: 20px;
      font-family: 'Geneva', Times, serif;
      background-color: rgba(25, 101, 53, 0.844);
      color: #f2b1d3;
