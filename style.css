@@ -14,17 +14,16 @@
  }
 
  .navItem {
-     /* display: inline-block;   */
-     padding: 15px;
+     display: inline-block;  
+     padding: 10px;
+     margin-top: 20px;;
      text-decoration: none;
      /* color: black; */
-     font-size: 60px;
+     font-size: 65px;
      font-weight: 100px;
      font-family: 'Augusta';
-     margin-bottom: 4%;
      color: #fbe8c5e8;
      cursor: url('cursorsword.png'), auto;
-     /* margin-left: -5%; */
  }
 
  #nav3{
@@ -55,7 +54,7 @@
  }
 
  h1 {
-     font-size: 100px;
+     font-size: 90px;
      text-align: center;
      font-weight: 350;
      font-style: italic;
@@ -67,7 +66,7 @@
  .email-button {
      font-size: 20px;
      font-family: 'Geneva', Times, serif;
-     background-color: #196535d7;
+     background-color: rgba(25, 101, 53, 0.843);
      color: #f2b1d3;
      position: absolute;
      bottom: 0;
@@ -76,6 +75,12 @@
      margin-bottom: 15px;
      margin-right: 10px;
      cursor: url('cursorsword.png'), auto;
+ }
+
+ .email-button:hover{
+    color: rgba(25, 101, 53);
+    background-color:rgba(242, 177, 211,0.844);
+        transition: 0.5s;
  }
 
  .description-button {
@@ -91,14 +96,13 @@
      display:block;
 margin: auto;
      /* margin-left: 26%; */
-     margin-bottom:3%;
+     margin-bottom:4%;
      font-style: italic;
-
  }
 
  .harbour-video {
-     width: 40%;
-     margin-left: 30%;
+     width: 44%;
+     margin-left: 27%;
      display: inline-block;
 
  }
@@ -112,10 +116,16 @@ margin: auto;
      margin-left: 10px;
      font-size: 20px;
      font-family: 'Geneva', Times, serif;
-     background-color: rgba(25, 101, 53, 0.844);
+     background-color: rgba(25, 101, 53);
      color: #f2b1d3;
      cursor: url('cursorsword.png'), auto;
 
+ }
+
+ .insta-button:hover{
+    color: #196535d7;
+    background-color: rgba(242, 177, 211,0.844);
+    transition: 0.5s;
  }
 
 
