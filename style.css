@@ -142,8 +142,8 @@ body{
 
 .description-button{
   
-    /* margin-top:4%; margin-bottom: 6%; */
-    font-size: 18px;
+margin:10px;
+font-size: 18px;
 }
 
 .harbour-video{
@@ -168,8 +168,9 @@ body{
 }
 
 .navItem{
-    font-size: 40px;
-    margin-top: 5px;
+    font-size: 50px;
+    margin-top: 0px;
+    padding: 
 }
   }
 
