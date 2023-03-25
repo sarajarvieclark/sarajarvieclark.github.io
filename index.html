@@ -6,6 +6,17 @@
         <meta name="keywords" content="folk music, guitar, Analogues of May, toronto musician, montreal musician, folk musician, singer-songwriter, Sara Jarvie-Clark">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+
+        <script>
+        function copyEmail() {
+          // Get the text field
+          let copyText = "analoguesofmay@protonmail.com";
+          console.log(copyText);
+      
+          
+          navigator.clipboard.writeText(copyText);
+        }
+      </script>
     </head>
     
    
@@ -40,8 +51,8 @@
          
               <!-- <p1 class="paragraph">
               </p1> -->
-              <button class="email-button"> 
-                analoguesofmay @ protonmail.com :p</button>
+              <button onclick="copyEmail()" id='emailButton' class="email-button"> 
+                analoguesofmay @ protonmail.com</button>
             <a href="https://www.instagram.com/analoguesofmay/" target= "_Blank">
               <button class="insta-button">instagram</button>
             </a>
