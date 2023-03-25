@@ -80,6 +80,7 @@
  .email-button:hover{
     color: rgba(25, 101, 53);
     background-color:rgba(242, 177, 211,0.844);
+    border-radius: 15px;
         transition: 0.5s;
  }
 
@@ -125,6 +126,7 @@ margin: auto;
  .insta-button:hover{
     color: #196535d7;
     background-color: rgba(242, 177, 211,0.844);
+    border-radius: 15px;
     transition: 0.5s;
  }
 
@@ -132,7 +134,7 @@ margin: auto;
  @media only screen and (max-width: 800px) {
     
 h1{
-    font-size: 3em;
+    font-size: 3.2em;
     margin-top: 5%;
 }
 
@@ -169,9 +171,10 @@ font-size: 18px;
 }
 
 .navItem{
+    display: block;
     font-size: 50px;
     margin-top: 0px;
-    padding: 
+    font-size: 3em;;
 }
   }
 
