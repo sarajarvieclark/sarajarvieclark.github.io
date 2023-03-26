@@ -165,9 +165,10 @@ font-size: 18px;
 
 .email-button{
     position:static;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;;
     font-size: 20px;
 }
 
