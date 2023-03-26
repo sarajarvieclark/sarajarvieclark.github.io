@@ -54,7 +54,7 @@
  }
 
  h1 {
-     font-size: 90px;
+     font-size: 80px;
      text-align: center;
      font-weight: 350;
      font-style: italic;
@@ -64,16 +64,16 @@
  }
 
  .email-button {
-     font-size: 20px;
+     font-size: 16px;
      font-family: 'Geneva', Times, serif;
      background-color: rgba(25, 101, 53, 0.843);
      color: #f2b1d3;
      position: absolute;
-     bottom: 0;
+     top: 0;
      right: 0;
      padding: 10px;
-     margin-bottom: 15px;
-     margin-right: 10px;
+     margin-top: 20px;
+     margin-right: 20px;
      cursor: url('cursorsword.png'), auto;
  }
 
@@ -95,7 +95,7 @@
      padding-top: 0.5%;
      cursor: url('cursorsword.png'), auto;
      display:block;
-margin: auto;
+    margin: auto;
      /* margin-left: 26%; */
      margin-bottom:4%;
      font-style: italic;
@@ -113,9 +113,9 @@ margin: auto;
      bottom: 0;
      left: 0;
      padding: 10px;
-     margin-bottom: 15px;
-     margin-left: 10px;
-     font-size: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+     font-size: 16px;
      font-family: 'Geneva', Times, serif;
      background-color: rgba(25, 101, 53,0.844);
      color: #f2b1d3;
@@ -130,8 +130,17 @@ margin: auto;
     transition: 0.5s;
  }
 
-
- @media only screen and (max-width: 800px) {
+@media only screen and (max-width:1300px){
+    .email-button{
+        position:fixed;
+        bottom: 0;
+        top: auto;
+        right:0;
+        margin-right: 20px;
+        margin-bottom:20px;
+    }
+}
+ @media only screen and (max-width: 1000px) {
     
 h1{
     font-size: 55px;
@@ -144,8 +153,8 @@ body{
 
 .description-button{
   
-margin-left:10px;
-margin-right: 10px;
+/* margin-left:10px;
+margin-right: 10px; */
 font-size: 18px;
 }
 
@@ -160,7 +169,6 @@ font-size: 18px;
     margin-left: 10%;
     margin-bottom: 5%;
     font-size: 20px;
-    word-wrap: break-word;
 }
 
 .insta-button{
